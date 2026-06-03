@@ -14,8 +14,6 @@ class Estudiante extends Model
     protected $token = null;
     protected $sesion_activa = false;
     protected $estado = 'activo';
-    protected $created_at = null;
-    protected $updated_at = null;
 
     public function __construct($data = [])
     {
